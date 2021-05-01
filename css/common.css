@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  font-size: 62.5%; /* 16px * 62.5% = 10px */
+  width: 100%;
+  box-sizing: border-box;
+}
+section h2 {
+    font-size: 2.4rem;
+  }
+  a:hover {
+    opacity: 0.5;
+  }
+  .none {
+    display: none;
+  }
+
+
+/* footer */
+footer {
+  padding: 60px 0;
+  background-color: #FCFBF7;
+}
+footer p {
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-copyright {
+  color: #760507;
+  font-size: 20px;
+}
+@media (max-width: 599px) {
+footer {
+  padding: 25px 0;
+}
+.footer-copyright {
+  font-size: 8px;
+}
+}
+/* page_top */
+#page_top {
+  position: absolute;
+  width: 10vw;
+  right: 5%;
+}
+#page_top a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+#page_top a:hover {
+  text-decoration: none;
+}
+.page_top_button {
+  width: 100%;
+}
+@media (max-width: 599px) {
+  #page_top a {
+    padding: 10px 10px
+  }
+}
+
+/* 画面切り替え */
+#switch {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  }
+.btn {
+  float: right;
+  margin: 0 0 0 10px;
+  padding: 5px;
+  font-size: 1.6rem;
+  text-align: center;
+  background: #760507;
+  color: #FFF;
+  border-bottom: 4px solid rgba(0, 0, 0, .2);
+  }
+.btn:hover {
+  opacity: .8;
+  cursor: pointer;
+  }
+.inactive { opacity: .5; }
+.inactive:hover {
+  opacity: 1.5;
+  cursor: default;
+  }
+.boxDisplay { display: block; }
+.boxNone { display: none; }
